@@ -86,3 +86,6 @@ var square4 = square(4);
 	- Machine Stack etc.
 
 ---
+
+### Hoisting in Javascript
+> Hoisting is a phenomena in Javascript where **variables and functions can be accessed without any error even before they are iniitialized**.
