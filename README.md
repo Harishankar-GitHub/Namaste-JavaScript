@@ -1,4 +1,3 @@
-
 # :sparkles: [Namaste JavaScript](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP) :sparkles:
 
 - JavaScript is the most hated programming language in the world! :worried:
@@ -68,7 +67,7 @@ var square4 = square(4);
 - Once all the code is executed, the Global Execution Context is also deleted.
 > **This is how JavaScript Code is executed**.
 
-### Call Stack in JavaScript
+## Call Stack in JavaScript
 - When there're **a lot of function calls** inside a function, **lot of execution contexts are created internally** and it can go to any deep level.
 - And it is **very difficult** for JavaScript engine **to manage** and **it does it very beautifully**.
 - JavaScript engine manages a stack, i.e., call stack.
@@ -87,15 +86,69 @@ var square4 = square(4);
 
 ---
 
-### Hoisting in Javascript
+## Hoisting in Javascript
 > Hoisting is a phenomena in Javascript where **variables and functions can be accessed without any error even before they are iniitialized**.
 
 > Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/Hoisting%20in%20Javascript) to go to the code.
 
 ---
 
-### How Functions work in Javascript? & Variable Environment
+## How Functions work in Javascript? & Variable Environment
+
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/Functions%20and%20Variable%20Environment) to go to the code.
+
+---
+
+## SHORTEST JS Program - window & this keyword
 
 > Click [here]() to go to the code.
+
+>- When the program is run/debugged (***even if there's no code to execute***), javascript engine still creates global execution context and also sets up the memory space.
+>- Though there's nothing to set up, still it does it's job.
+
+### window keyword
+
+>- Javascript engine also creates a **Window**.
+>- Once the program is run/html page is refreshed, **In the Console tab, type `window` and click enter**.
+>- The Window object is printed and **lots of variables and functions can be seen**.
+>- These are **created** by javascript engine **into the Global space**.
+>- These variables and functions **can be accessed anywhere in the javascript program**.
+>- This **functionality is given by javascript engine**.
+
+### this keyword
+
+>- Just like the Window, javascript engine also creates, a **"this"** keyword.
+>- When we type `this` in the Console tab similar to `window`, an object is printed.
+>- It is nothing but the same Window object.
+>- At the global level, **"this" points to window object**.
+
+>- Window is a global object which is created along with the global execution context.
+>- So whenever a javascript program is run/executed, **a global object is created, a global execution context is created, and along with that, a "this" variable is created**.
+
+>- The global object, **in case of browsers**, it is **known as window**.
+>- Javascript is not only run on browsers. It is also run on servers and a lot of other places.
+>- **Wherever javascript is running, there must be a javascript engine**.
+>- In Chrome, it is known as V8. Mozilla has it's own, Safari has it's own.
+>- **All the javascript engines has the responsibility to create this global object**.
+>- In case of browsers it is known as window, in case of Nodejs, it is known as something else. Wherever the javascript code is run, it is different.
+>- But there's always a global object created.
+>- Even though the file is empty/there's no code, javascript engine will create this global object.
+>- **In the global execution context, "this" is equal to "window"**. It can be verified in the Console tab by typing `this == window`.
+
+### Global Space
+
+>- **A global space is nothing but the place where the code that is not inside a function is present**.
+>- ***For example:*** 
+>>- A variable `var a = 10` This is in global space.
+>>- A function: `function b() {} This is in global space
+>>- Another function: `function c() {var x = 10;} Here, the variable x is not in global space.
+
+### What happens when any variables or functions created in global space ?
+
+- These variables and functions **get attached to the global object (*i.e., window*)**.
+- From the above example code snippets, variable a, b() and c() functions will be attached to the global object. The variable x that is inside c() function will not be present in the global object.
+- Variables and functions that are in the global object **can be accessed using this code** `console.log(window.a);`
+- `console.log(a);` also works because if `window.a` is not used, it automatically assumes that we are referring to the global space.
+- `console.log(this.a);` also works because this is equal to window only.
 
 ---
