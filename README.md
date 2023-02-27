@@ -89,3 +89,13 @@ var square4 = square(4);
 
 ### Hoisting in Javascript
 > Hoisting is a phenomena in Javascript where **variables and functions can be accessed without any error even before they are iniitialized**.
+
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/Hoisting%20in%20Javascript) to go to the code.
+
+---
+
+### How Functions work in Javascript? & Variable Environment
+
+> Click [here]() to go to the code.
+
+---
