@@ -101,7 +101,7 @@ var square4 = square(4);
 
 ## SHORTEST JS Program - window & this keyword
 
-> Click [here]() to go to the code.
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/Shortest%20JS%20Program) to go to the code.
 
 >- When the program is run/debugged (***even if there's no code to execute***), javascript engine still creates global execution context and also sets up the memory space.
 >- Though there's nothing to set up, still it does it's job.
@@ -150,5 +150,27 @@ var square4 = square(4);
 - Variables and functions that are in the global object **can be accessed using this code** `console.log(window.a);`
 - `console.log(a);` also works because if `window.a` is not used, it automatically assumes that we are referring to the global space.
 - `console.log(this.a);` also works because this is equal to window only.
+
+---
+
+## undefined vs not defined in JS
+
+> Click [here]() to go to the code.
+
+- ***undefined*** is a very special keyword in Javascript.
+- It is not there in other languages.
+- It has a lot to do with how javascript code is executed.
+- When a javascript program is run/executed, javascript engine creates a global execution context and allocates memory to all the variables and functions even before a single line of code is executed.
+- *undefined* is assigned to the variables before the code is executed.
+- ***undefined* is like a placeholder** in the memory for variables before any value is assigned.
+- Javascript is a **loosely typed language** a.k.a **weakly typed language**.
+- Loosely typed means it **does not attach any specific datatype** to its variables.
+- If a variable "a" is created and a string is assigned to it, later in the code, the variable can be assigned with numbers, boolean values etc.
+
+### Mistakes to avoid while using undefined
+- `var a = undefined` This code is **not a good practice**.
+- *undefined* means no value is assigned to the variable in memory creation phase.
+- Again if we assign *undefined* to that variable, it will lead to confusion and inconsistency.
+- *undefined* is used to know if any value is assigned to a variable and that's the purpose of *undefined* keyword.
 
 ---
