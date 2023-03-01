@@ -13,7 +13,7 @@ getName();
 console.log(x);
 
 // The output for the above code will be
-// Namaste Javascript
+// Namaste Javascript from getName()
 // 7
 
 console.log("-----------------------------------------------------------------------------------------------------")
@@ -24,11 +24,11 @@ console.log(y);
 var y = 8;
 
 function getName1() {
-    console.log("Namaste Javascript getName1()");
+    console.log("Namaste Javascript from getName1()");
 }
 
 // Now the output for the above code will be
-// Namaste Javascript
+// Namaste Javascript from getName1()
 // undefined
 
 // For explanation, refer here - https://github.com/Harishankar-GitHub/namaste-javascript#how-javascript-code-is-executed
@@ -40,10 +40,11 @@ getName2();
 // Commenting above line so that the codes below will be executed.
 
 function getName2() {
-    console.log("Namaste Javascript getName2()");
+    console.log("Namaste Javascript from getName2()");
 }
 
 // Now the output for the above code will be
+// Namaste Javascript from getName2()
 // index.js:35 Uncaught ReferenceError: z is not defined
 // at index.js:35:13
 
@@ -61,7 +62,7 @@ console.log(getName3);
 
 // Now the output for the above code will be
 // ƒ getName3() {
-//      console.log("Namaste Javascript getName3()");
+//      console.log("Namaste Javascript from getName3()");
 // }
 
 // We are not invoking the function.
