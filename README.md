@@ -155,7 +155,7 @@ var square4 = square(4);
 
 ## undefined vs not defined in JS
 
-> Click [here]() to go to the code.
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/undefined%20vs%20not%20defined%20in%20JS) to go to the code.
 
 - ***undefined*** is a very special keyword in Javascript.
 - It is not there in other languages.
@@ -172,5 +172,54 @@ var square4 = square(4);
 - *undefined* means no value is assigned to the variable in memory creation phase.
 - Again if we assign *undefined* to that variable, it will lead to confusion and inconsistency.
 - *undefined* is used to know if any value is assigned to a variable and that's the purpose of *undefined* keyword.
+
+---
+
+## The Scope Chain, Scope & Lexical Environment
+
+> Click [here]() to go to the code.
+
+### Scope
+
+- **Scope in JavaScript is directly related to Lexical Environment**.
+- Scope means where you can access a specific variable or a function in the code.
+
+#### 2 Aspects of Scope
+
+- **What is the scope of this variable "b" in the below code?**
+```javascript
+function a() {
+	var b = 10;
+	c();
+
+	function c() {
+	}
+}
+a();
+```
+- That means, where can the variable "b" be accessed?
+- Other aspect of scope is, **is variable "b" inside the scope of c() function?**
+
+### Lexical Environment
+- **Wherever an execution context is created, a Lexical Environment is also created**.
+- ***Lexical Environment is the local memory along with the reference of the lexical environment of it's parent***.
+- We can say function c() is lexically sitting inside function a().
+- With the example of the above code, the lexical environment of function c() has the memory space of function c() along with the lexical environment of function a().
+- The lexical environment of the global space will have the memory space of it's variables and functions and doesn't have access to any parent lexical environment (*it points to null*) because the global space is the starting point and it doesn't have any parent.
+- **Lexical means, in a hierarchy, or in a sequence**.
+- Function a() is lexically inside the global scope.
+- In terms of code, **lexical means where the code is present** (*i.e., a particular code/variable/function might be present in the outer most code/global scope or inside any function etc.*).
+
+### Scope Chain
+
+- The **way/mechanism** of **finding/searching** the **variables from inside any function to its parent function till the global space** is known as Scope Chain.
+- Scope Chain defines whether a variable or a function is present inside the scope.
+- If the Scope Chain is exhausted and the variable is not found, that means it is not inside the Scope Chain.
+
+### View the Lexical Environment in the browser
+
+- Run the code in debug mode and in the Inspect Page -> Sources Tab -> Click on different execution contexts that are available in the Call Stack tab and see the Scope Tab.
+- The global execution context will have Global scope.
+- The execution contexts of any function will have the local scope, parent scopes (if any) and the global scope.
 
 ---
