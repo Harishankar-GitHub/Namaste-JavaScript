@@ -177,7 +177,7 @@ var square4 = square(4);
 
 ## The Scope Chain, Scope & Lexical Environment
 
-> Click [here]() to go to the code.
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/The%20Scope%20Chain%2C%20Scope%20%26%20Lexical%20Environment) to go to the code.
 
 ### Scope
 
@@ -221,5 +221,18 @@ a();
 - Run the code in debug mode and in the Inspect Page -> Sources Tab -> Click on different execution contexts that are available in the Call Stack tab and see the Scope Tab.
 - The global execution context will have Global scope.
 - The execution contexts of any function will have the local scope, parent scopes (if any) and the global scope.
+
+---
+
+## let & const in JS and Temporal Dead Zone
+
+> Click [here]() to go to the code.
+
+- **let & const declarations are Hoisted**.
+- But they are hoisted very differently than the var declarations.
+
+### Temporal Dead Zone
+- Temporal Dead Zone is the time between the let variable is Hoisted and initialized with some value.
+- **Whenever a variable is accessed when it is in the Temporal Dead Zone, it throws a ReferenceError**.
 
 ---
