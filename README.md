@@ -226,7 +226,7 @@ a();
 
 ## let & const in JS and Temporal Dead Zone
 
-> Click [here]() to go to the code.
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/let%20%26%20const%20in%20JS%20and%20Temporal%20Dead%20Zone) to go to the code.
 
 - **let & const declarations are Hoisted**.
 - But they are hoisted very differently than the var declarations.
@@ -234,5 +234,11 @@ a();
 ### Temporal Dead Zone
 - Temporal Dead Zone is the time between the let variable is Hoisted and initialized with some value.
 - **Whenever a variable is accessed when it is in the Temporal Dead Zone, it throws a ReferenceError**.
+
+---
+
+## Block, Scope & Shadowing in JS
+
+> Click [here]() to go to the code.
 
 ---
