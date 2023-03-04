@@ -4,6 +4,9 @@
 - You know what's the most loved programming language in the world? It's JavaScript! :heart_eyes:
 - And you know what's the most popular programming language in the world? It's again JavaScript! :sunglasses:
 
+## JavaScript Documentation
+> Click [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript) to view the JavaScript Documentation.
+
 ## How JavaScript works ?
 
 ***"Everything in JavaScript happens inside an Execution Context"***
