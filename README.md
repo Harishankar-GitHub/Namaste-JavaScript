@@ -245,7 +245,7 @@ a();
 
 ## Closures in JS
 
-> Click [here]() to go to the code.
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/Closures%20in%20JS) to go to the code.
 
 ### Uses of Closures:
 
@@ -257,5 +257,11 @@ a();
 - setTimeouts
 - Iterators
 - and many more...
+
+---
+
+## setTimeout + Closures Interview Question
+
+> Click [here]() to go to the code.
 
 ---
