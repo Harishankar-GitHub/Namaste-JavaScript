@@ -239,6 +239,23 @@ a();
 
 ## Block, Scope & Shadowing in JS
 
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/Block%2C%20Scope%20%26%20Shadowing%20in%20JS) to go to the code.
+
+---
+
+## Closures in JS
+
 > Click [here]() to go to the code.
+
+### Uses of Closures:
+
+- Module Design Pattern
+- Currying
+- Functions like once
+- Memoize
+- Maintaining state in async world
+- setTimeouts
+- Iterators
+- and many more...
 
 ---
