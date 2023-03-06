@@ -265,6 +265,12 @@ a();
 
 ## setTimeout + Closures Interview Question
 
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/setTimeout%20%2B%20Closures%20Interview%20Question) to go to the code.
+
+---
+
+## First Class Functions ft. Anonymous Functions
+
 > Click [here]() to go to the code.
 
 ---
