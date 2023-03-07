@@ -271,6 +271,12 @@ a();
 
 ## First Class Functions ft. Anonymous Functions
 
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/First%20Class%20Functions) to go to the code.
+
+---
+
+## Callback Functions in JS ft. Event Listeners
+
 > Click [here]() to go to the code.
 
 ---
