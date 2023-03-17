@@ -277,6 +277,12 @@ a();
 
 ## Callback Functions in JS ft. Event Listeners
 
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/Callback%20Functions) to go to the code.
+
+---
+
+## Asynchronous JavaScript & Event Loop from scratch
+
 > Click [here]() to go to the code.
 
 ---
