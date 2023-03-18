@@ -283,6 +283,12 @@ a();
 
 ## Asynchronous JavaScript & Event Loop from scratch
 
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/Asynchronous%20JavaScript%20%26%20Event%20Loop) to go to the code.
+
+---
+
+## JS Engine Exposed
+
 > Click [here]() to go to the code.
 
 ---
