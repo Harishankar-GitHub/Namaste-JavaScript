@@ -289,6 +289,12 @@ a();
 
 ## JS Engine Exposed
 
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/JS%20Engine%20Exposed) to go to the code.
+
+---
+
+## Trust Issues with setTimeout()
+
 > Click [here]() to go to the code.
 
 ---
