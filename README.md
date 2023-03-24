@@ -295,6 +295,12 @@ a();
 
 ## Trust Issues with setTimeout()
 
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/Trust%20Issues%20with%20setTimeout()) to go to the code.
+
+---
+
+## Higher-Order Functions ft. Functional Programming
+
 > Click [here]() to go to the code.
 
 ---
