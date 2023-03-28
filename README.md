@@ -301,6 +301,12 @@ a();
 
 ## Higher-Order Functions ft. Functional Programming
 
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/Higher-Order%20Functions) to go to the code.
+
+---
+
+## map, filter & reduce
+
 > Click [here]() to go to the code.
 
 ---
