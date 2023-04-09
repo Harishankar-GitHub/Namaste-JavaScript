@@ -1,4 +1,6 @@
-# :sparkles: [Namaste JavaScript](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP) :sparkles:
+# :sparkles: Namaste JavaScript :sparkles:
+
+## [Season 1](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
 
 - JavaScript is the most hated programming language in the world! :worried:
 - You know what's the most loved programming language in the world? It's JavaScript! :heart_eyes:
@@ -307,6 +309,12 @@ a();
 
 ## map, filter & reduce
 
-> Click [here]() to go to the code.
+> Click [here](https://github.com/Harishankar-GitHub/Namaste-JavaScript/tree/main/map%2C%20filter%20%26%20reduce) to go to the code.
 
 ---
+
+## [Season 2](https://www.youtube.com/playlist?list=PLlasXeu85E9eWOpw9jxHOQyGMRiBZ60aX)
+
+## Callback Hell
+
+> Click [here]() to go to the code.
